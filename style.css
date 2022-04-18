@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width:100vw; 
+    overflow-x: hidden;
+}
+header{
+    
+    background:hsl(193, 100%, 96%);
+    background-image: url('./images/bg-hero-desktop.svg');
+    width:100vw;
+
+}
+.nav-bar{
+    flex-direction: column;
+    height:10vh;
+}
+.logo{
+    margin-left:30px;
+    position: relative;
+    top:45px;
+
+}
+.nav-button{
+    float:right;
+    position: relative;
+    top:37px;
+    right:40px;
+    font-size:20px;
+    background-color:rgb(255, 255, 255);
+    padding: 15px;
+    width:15vw;
+    border-style: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(246, 240, 240);
+    color:rgb(103, 98, 98);
+
+}
+.title-header{
+    font-weight: 600;
+    font-size: 35px;
+}
+.para-header{
+    font-weight:300;
+    font-size: 20px;
+    line-height: 1.6;
+    width:50vw;
+}
+.section-one{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.image-one{
+    width:40vw;
+    margin-left: 10px;
+    position: relative;
+    right:1px;
+
+}
+.get-started{
+    margin-top: 30px;
+    width:20vw;
+    background-color:hsl(322, 100%, 66%);
+    border: none;
+    padding: 12px;
+    height:60px;
+    border-radius: 40px;
+    color:aliceblue;
+    font-size:17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card{
+    width:90vw;
+    margin:auto;
+    display: flex;
+    margin-top:40px;
+    -webkit-box-shadow: 2px 3px 10px 0px rgba(0,0,0,0.3); 
+    box-shadow: 2px 3px 10px 0px rgba(0,0,0,0.3);
+    background: #F7F8FB;
+}
+.card-photo{
+    width:30vw;
+    margin:60px;
+}
+.card-header{
+    font-size: 25px;
+    position: relative;
+    left:140px;
+    width:900px;
+    top:100px;
+}
+.card-para{
+    font-size: 17px;
+    position: relative;
+    right:165px;
+    width:1100px;
+    top:180px;
+    line-height: 1.9;
+    color:rgb(92, 92, 92);
+}
+.small-card{
+    width:40vw;
+    margin:auto;
+    height:200px;
+    -webkit-box-shadow: 2px 1px 9px 3px rgba(0,0,0,0.15); 
+    box-shadow: 2px 1px 9px 3px rgba(0,0,0,0.15);   
+    background: #F7F8FB;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 23px;
+    z-index: 1;
+    position: relative;
+    top:90px;
+
+}
+.footer-section{
+    background-color:hsl(192, 100%, 9%);
+    z-index: -1;
+    color:aliceblue;
+}
+.below-logo{
+    margin-top: 120px;
+    position: relative;
+    left:50px;
+}
+.huddle{
+    position: relative;
+    left:110px;
+    bottom:80px;
+    font-size: 28px;
+}
+.location{
+    position: relative;
+    left:65px;
+    bottom:70px;
+}
+.location-text{
+    position: relative;
+    left:95px;
+    bottom:112px;
+    width:400px;
+}
+.phone{
+    position: relative;
+    left:65px;
+    bottom:90px;
+}
+.phone-text{
+    position: relative;
+    left:95px;
+    bottom:132px;
+}
+.email{
+    position: relative;
+    left:65px;
+    bottom:110px;
+}
+.email-text{
+    position: relative;
+    left:95px;
+    bottom:152px;
+}
+.links{
+    color:#F7F8FB;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+.footer-links{
+    display:flex;
+    position: relative;
+    left:600px;
+    bottom:380px;
+}
+.footer-links-one{
+    display: flex;
+    flex-direction:column;
+}
+.footer-links-two{
+    display: flex;
+    flex-direction:column;
+}
+.social-media{
+    position: relative;
+    left:1100px;
+    bottom:550px;
+}
+.social{
+    font-size: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.social:hover{
+    color:beige;
+}
+
+@media screen and (min-width: 1250px) {
+    .nav-button{
+        position: relative;
+        right:100px;
+    }
+    .section-one{
+        margin-left: 30px;
+    }
+    .social-media{
+        position: relative;
+        left:800px;
+        bottom:550px;
+    }
+    .footer-links{
+        display:flex;
+        position: relative;
+        left:450px;
+        bottom:420px;
+    }
+    .social{
+        font-size: 30px;
+        margin-right: 15px;
+        cursor: pointer;
+        position: relative;
+        top:10px;
+
+    }
+
+  }
+  @media screen and (max-width: 2000px){
+    .social-media{
+        position: relative;
+        left:1100px;
+        bottom:550px;
+    }
+    .footer-links{
+        display:flex;
+        position: relative;
+        left:700px;
+        bottom:380px;
+    }
+    .social{
+        font-size: 30px;
+        margin-right: 15px;
+        cursor: pointer;
+        position: relative;
+        top:10px;
+
+    }
+  }
+  @media screen and (max-width: 1250px){
+    .social-media{
+        position: relative;
+        left:1000px;
+        bottom:550px;
+    }
+    .footer-links{
+        display:flex;
+        position: relative;
+        left:600px;
+        bottom:420px;
+    }
+    .social{
+        font-size: 30px;
+        margin-right: 15px;
+        cursor: pointer;
+        position: relative;
+        top:10px;
+
+    }
+  }
+
+@media screen and (max-width: 1150px) {
+    .card-header{
+        font-size: 23px;
+        left:50px;
+        top:100px;
+        width:80vw;
+
+    }
+    .card-para{
+        font-size: 15px;
+        position: relative;
+        right:165px;
+        width:80vw;
+        top:100px;
+        line-height: 1.9;
+        color:rgb(92, 92, 92);
+    }
+    .below-logo{
+        margin-top: 100px;
+        position: relative;
+        left:30px;
+    }
+    .huddle{
+        position: relative;
+        left:90px;
+        bottom:60px;
+        font-size: 23px;
+    }
+    .location{
+        position: relative;
+        left:45px;
+        bottom:70px;
+    }
+    .location-text{
+        position: relative;
+        left:75px;
+        bottom:112px;
+        width:30vw;
+    }
+    .phone{
+        position: relative;
+        left:45px;
+    }
+    .phone-text{
+        position: relative;
+        left:75px;
+    }
+    .email{
+        position: relative;
+        left:45px;
+    }
+    .email-text{
+        position: relative;
+        left:75px;
+    }
+    .social-media{
+        position: relative;
+        left:800px;
+        bottom:550px;
+    }
+    .footer-links{
+        display:flex;
+        position: relative;
+        left:450px;
+        bottom:420px;
+    }
+    .social{
+        font-size: 30px;
+        margin-right: 15px;
+        cursor: pointer;
+        position: relative;
+        top:10px;
+
+    }
+
+
+}
+@media screen and (max-width: 900px) {
+    .card-header{
+        font-size: 21px;
+        left:50px;
+        top:10px;
+        width:80vw;
+
+    }
+    .card-para{
+        font-size: 12px;
+        position: relative;
+        right:80px;
+        width:1000px;
+        top:100px;
+        line-height: 1.9;
+        color:rgb(92, 92, 92);
+    }
+    .nav-button{
+        font-size:15px
+    }
+    .title-header{
+        font-size: 30px;
+    }
+    .para-header{
+        font-size: 15px;
+        line-height: 1.6;
+        width:50vw;
+    }
+    .small-card{
+        font-size: 19px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .links{
+        margin: 10px;
+    }
+    .below-logo{
+        margin-top: 100px;
+        position: relative;
+        left:30px;
+    }
+    .huddle{
+        position: relative;
+        left:90px;
+        bottom:60px;
+        font-size: 23px;
+    }
+    .location{
+        position: relative;
+        left:45px;
+        bottom:70px;
+    }
+    .location-text{
+        position: relative;
+        left:75px;
+        bottom:112px;
+        width:30vw;
+    }
+    .phone{
+        position: relative;
+        left:45px;
+    }
+    .phone-text{
+        position: relative;
+        left:75px;
+    }
+    .email{
+        position: relative;
+        left:45px;
+    }
+    .email-text{
+        position: relative;
+        left:75px;
+    }
+    .social-media{
+        position: relative;
+        left:600px;
+        bottom:550px;
+    }
+    .footer-links{
+        display:flex;
+        position: relative;
+        left:350px;
+        bottom:420px;
+    }
+    .social{
+        font-size: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+        position: relative;
+        top:10px;
+
+    }
+    
+
+
+}
+
